@@ -194,23 +194,40 @@
             break;
         }
         case HYPutType_NormalAngle90: {
-            putTypeString = @"物品需要旋转90，即：长宽、宽长、高高";
+            putTypeString = @"物品需要旋转90度，即：长宽、宽长、高高";
+            NSInteger tempValue = objectLength;
+            objectLength = objectWidth;
+            objectWidth = tempValue;
             break;
         }
         case HYPutType_BottomLength: {
             putTypeString = @"物品侧放，即：长长、宽高、高宽";
+            NSInteger tempValue = objectWidth;
+            objectWidth = objectHeight;
+            objectHeight = tempValue;
             break;
         }
         case HYPutType_BottomLengthAngle90: {
             putTypeString = @"物品侧放，即：长高、宽长、高宽";
+            NSInteger tempValue = objectLength;
+            objectLength = objectHeight;
+            objectHeight = objectWidth;
+            objectWidth = tempValue;
             break;
         }
         case HYPutType_BottomWidth: {
             putTypeString = @"物品竖放，即：长高、宽宽、高长";
+            NSInteger tempValue = objectLength;
+            objectLength = objectHeight;
+            objectHeight = tempValue;
             break;
         }
         case HYPutType_BottomWidthAngle90: {
             putTypeString = @"物品竖放，即：长宽、宽高、高长";
+            NSInteger tempValue = objectLength;
+            objectLength = objectWidth;
+            objectWidth = objectHeight;
+            objectHeight = tempValue;
             break;
         }
         case HYPutType_AllType: {
