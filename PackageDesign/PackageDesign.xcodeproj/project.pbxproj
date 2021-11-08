@@ -94,6 +94,7 @@
 		6AC70229273382AC002AE8EA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC701AD273382AB002AE8EA /* AFSecurityPolicy.m */; };
 		6AC7022E27338B02002AE8EA /* HYDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7022C27338B01002AE8EA /* HYDataManager.m */; };
 		6AC7023127338DF9002AE8EA /* TimeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7022F27338DF9002AE8EA /* TimeTools.m */; };
+		6AE8FB8027353613003CD4F8 /* PEBagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8FB7F27353613003CD4F8 /* PEBagViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -335,6 +336,8 @@
 		6AC7022D27338B02002AE8EA /* HYDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDataManager.h; sourceTree = "<group>"; };
 		6AC7022F27338DF9002AE8EA /* TimeTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeTools.m; sourceTree = "<group>"; };
 		6AC7023027338DF9002AE8EA /* TimeTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTools.h; sourceTree = "<group>"; };
+		6AE8FB7E27353613003CD4F8 /* PEBagViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEBagViewController.h; sourceTree = "<group>"; };
+		6AE8FB7F27353613003CD4F8 /* PEBagViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEBagViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -382,6 +385,8 @@
 				6AC7006727338230002AE8EA /* SceneDelegate.m */,
 				6AC7006927338230002AE8EA /* ViewController.h */,
 				6AC7006A27338230002AE8EA /* ViewController.m */,
+				6AE8FB7E27353613003CD4F8 /* PEBagViewController.h */,
+				6AE8FB7F27353613003CD4F8 /* PEBagViewController.m */,
 			);
 			path = PackageDesign;
 			sourceTree = "<group>";
@@ -920,6 +925,7 @@
 			files = (
 				6AC701CB273382AB002AE8EA /* LJPullDownView.m in Sources */,
 				6AC701E6273382AC002AE8EA /* LJCreateQRCode.m in Sources */,
+				6AE8FB8027353613003CD4F8 /* PEBagViewController.m in Sources */,
 				6AC7020A273382AC002AE8EA /* UILabel+LJ.m in Sources */,
 				6AC701CE273382AB002AE8EA /* LJAlertView.m in Sources */,
 				6AC7021E273382AC002AE8EA /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -1135,6 +1141,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PackageDesign/File/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PackageDesign/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "包装设计";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1168,6 +1175,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PackageDesign/File/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PackageDesign/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "包装设计";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
