@@ -94,6 +94,7 @@
 		6AC70229273382AC002AE8EA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC701AD273382AB002AE8EA /* AFSecurityPolicy.m */; };
 		6AC7022E27338B02002AE8EA /* HYDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7022C27338B01002AE8EA /* HYDataManager.m */; };
 		6AC7023127338DF9002AE8EA /* TimeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC7022F27338DF9002AE8EA /* TimeTools.m */; };
+		6AE4DED027390BEC00BE2678 /* AdvanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE4DECF27390BEC00BE2678 /* AdvanceViewController.m */; };
 		6AE8FB8027353613003CD4F8 /* PEBagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8FB7F27353613003CD4F8 /* PEBagViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -336,6 +337,8 @@
 		6AC7022D27338B02002AE8EA /* HYDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDataManager.h; sourceTree = "<group>"; };
 		6AC7022F27338DF9002AE8EA /* TimeTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeTools.m; sourceTree = "<group>"; };
 		6AC7023027338DF9002AE8EA /* TimeTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTools.h; sourceTree = "<group>"; };
+		6AE4DECE27390BEC00BE2678 /* AdvanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvanceViewController.h; sourceTree = "<group>"; };
+		6AE4DECF27390BEC00BE2678 /* AdvanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvanceViewController.m; sourceTree = "<group>"; };
 		6AE8FB7E27353613003CD4F8 /* PEBagViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PEBagViewController.h; sourceTree = "<group>"; };
 		6AE8FB7F27353613003CD4F8 /* PEBagViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEBagViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -387,6 +390,8 @@
 				6AC7006A27338230002AE8EA /* ViewController.m */,
 				6AE8FB7E27353613003CD4F8 /* PEBagViewController.h */,
 				6AE8FB7F27353613003CD4F8 /* PEBagViewController.m */,
+				6AE4DECE27390BEC00BE2678 /* AdvanceViewController.h */,
+				6AE4DECF27390BEC00BE2678 /* AdvanceViewController.m */,
 			);
 			path = PackageDesign;
 			sourceTree = "<group>";
@@ -992,6 +997,7 @@
 				6AC70225273382AC002AE8EA /* AFHTTPSessionManager.m in Sources */,
 				6AC70208273382AC002AE8EA /* UITextField+LJ.m in Sources */,
 				6AC7021F273382AC002AE8EA /* UIImageView+AFNetworking.m in Sources */,
+				6AE4DED027390BEC00BE2678 /* AdvanceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
